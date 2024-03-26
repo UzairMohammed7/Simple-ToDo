@@ -1,0 +1,38 @@
+.container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todoCardContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 700px;
+  width: 90%;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.todoListItems {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .todoCardContainer {
+    width: 70%;
+  }
+}
