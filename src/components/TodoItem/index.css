@@ -3,14 +3,29 @@
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
+  display: flex;
+  padding: 8px 10px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 10px;
 }
 .title {
   color: #000000;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: bold;
+  text-align: left;
+  margin-left: 0;
 }
-.btn {
+.input-text {
+  outline: none;
+  border: 1px solid #ff8542;
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 33px;
+  width: 60%;
+}
+.delete-btn {
   background-color: #ffffff;
   border: 1px solid #ff0b37;
   color: #ff0b37;
@@ -20,4 +35,39 @@
   outline: none;
   cursor: pointer;
   padding: 8px 16px;
+}
+.edit-btn {
+  background-color: #ffffff;
+  border: 1px solid #0bff85;
+  color: #0bff85;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+.save-btn {
+  background-color: #ffffff;
+  border: 1px solid #0bff85;
+  color: #0bff85;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.checkbox {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.check-title {
+  display: flex;
+  align-items: center;
 }
